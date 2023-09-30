@@ -52,7 +52,7 @@
                            <a class="nav-link" href="/#about"> About</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="/#work"> Works</a>
+                           <a class="nav-link" href="/#myprojects"> My Projects</a>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link last-link" href="/#contact">Contact </a>
@@ -76,7 +76,7 @@
                         </h1>
                         <p>I design meaningful and immersive digital experiences that blend creativity and strategy, with the objective of shaping the future of user interactions.</p>
                         <!-- <a href="#" class=""> Hire Me </a> -->
-                        <a href="#"> Download CV </a>
+                        <a href="./RJ_files/CV_RuchiTurbadkar.pdf" download> Download CV </a>
                      </div>
                   </div>
                </div>
@@ -225,16 +225,17 @@
                85%
              </h6></div><div class="progress"><div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div></div></div></div></div></section> -->
       <!-- end skill section -->
-      <section id="work" class="portfolio_section layout_padding">
+      <!-- <section id="work" class="portfolio_section layout_padding">
          <div class="container">
             <div class="heading_container heading_center">
-               <h2> Works Gallery </h2>
+               <h2> Work Gallery </h2>
             </div>
+            Works Gallery -->
             <!-- <a data-fancybox="" data-type="pdf" data-src="./RJ_files/sample.pdf" href="javascript:;">
             Example #3 - Sample PDF file
             </a> -->
             <!-- Swiper -->
-            <div class="swiper-container portfolio-container swiper-container-coverflow swiper-container-3d swiper-container-initialized swiper-container-horizontal" style="cursor: grab;">
+            <!-- <div class="swiper-container portfolio-container swiper-container-coverflow swiper-container-3d swiper-container-initialized swiper-container-horizontal" style="cursor: grab;">
                <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1540px, 0px, 0px);">
                  <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" style="width: 370px; margin-right: 15px; transition-duration: 0ms; transform: translate3d(0px, 0px, -780.405px) rotateX(0deg) rotateY(130.068deg); z-index: -4;">
                    <a
@@ -369,15 +370,15 @@
                  </div>
                </div>
                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-               </div>
-         </div>
+               </div> -->
+         <!-- </div> -->
          <!-- Swiper JS -->
-      </section>
+      <!-- </section> -->
 
 
 
 
-      <section class="client_section layout_padding">
+      <section id="myprojects" class="client_section layout_padding">
         <div class="container">
            <div class="heading_container heading_center">
               <h2>
@@ -391,6 +392,21 @@
               <h2>Creativision: Bridging Design Dreams</h2>
               <p>Explore how I crafted an innovative UX design for Creativision, a platform connecting emerging designers and eager clients, fostering creativity, collaboration, and career growth in the design industry.</p>
               <a data-fancybox="" data-type="pdf" data-src="./RJ_files/sample.pdf" href="javascript:;">View Case Study</a>
+              <a data-fancybox="project1" href="./RJ_files/projects/creativision/p1.jpeg">View Designs</a>
+              <div style="display:none">
+               <a data-fancybox="project1" href="./RJ_files/projects/creativision/p2.jpeg">
+                 <img src="./RJ_files/projects/creativision/p2.jpeg" />
+               </a>
+               <a data-fancybox="project1" href="./RJ_files/projects/creativision/p3.jpeg">
+                 <img src="./RJ_files/projects/creativision/p3.jpeg" />
+               </a>
+               <a data-fancybox="project1" href="./RJ_files/projects/creativision/p4.jpeg">
+                  <img src="./RJ_files/projects/creativision/p4.jpeg" />
+                </a>
+                <a data-fancybox="project1" href="./RJ_files/projects/creativision/p5.jpeg">
+                  <img src="./RJ_files/projects/creativision/p5.jpeg" />
+                </a>
+             </div>
             </div>
           </div>
           <div class="showcase showcase--inverted mb-5">
@@ -400,6 +416,23 @@
               <h2>Transforming East Wellington Community Services (EWCS) Online Presence</h2>
               <p>Discover how our team revamped EWCS's decade-old website, enriching it with interactivity, transparency, and a captivating design to better engage donors and volunteers, fostering empathy and support for EWCS's noble mission.</p>
               <a data-fancybox="" data-type="pdf" data-src="./RJ_files/sample.pdf" href="javascript:;">View Case Study</a>
+              <a data-fancybox="project2" href="./RJ_files/projects/ewcs/About us EWCS.jpeg">View Designs</a>
+              <div style="display:none">
+               <a data-fancybox="project2" href="./RJ_files/projects/ewcs/Donate 1 EWCS.jpeg">
+                 <img src="./RJ_files/projects/ewcs/Donate 1 EWCS.jpeg" />
+               </a>
+               <a data-fancybox="project2" href="./RJ_files/projects/ewcs/Donation successful EWCS.jpeg">
+                  <img src="./RJ_files/projects/ewcs/Donation successful EWCS.jpeg" />
+                </a>
+                <a data-fancybox="project2" href="./RJ_files/projects/ewcs/Event Page EWCS.jpeg">
+                  <img src="./RJ_files/projects/ewcs/Event Page EWCS.jpeg" />
+                </a>
+                <a data-fancybox="project2" href="./RJ_files/projects/ewcs/Stores EWCS.jpeg">
+                  <img src="./RJ_files/projects/ewcs/Stores EWCS.jpeg" />
+                </a>
+                <a data-fancybox="project2" href="./RJ_files/projects/ewcs/Volunteers EWCS.jpeg">
+                  <img src="./RJ_files/projects/ewcs/Volunteers EWCS.jpeg" />
+                </a>
             </div>
           </div>
         </div>
@@ -591,6 +624,12 @@
            //
          });    
          Fancybox.bind('[data-fancybox=""]', {
+           //
+         });    
+         Fancybox.bind('[data-fancybox="project1"]', {
+           //
+         });    
+         Fancybox.bind('[data-fancybox="project2"]', {
            //
          });    
          
