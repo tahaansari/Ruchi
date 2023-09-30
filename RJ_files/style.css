@@ -744,10 +744,16 @@ a:focus {
   transition: right 250ms ease, left 250ms ease;
 }
 
-.thumbnail--awesome {
-      background-image: url(./18157432.png);
+.thumbnail--awesome.p1{
+      background-image: url(./projects/creativision/creativision-thumbnail.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.thumbnail--awesome.p2{
+  background-image: url(./projects/ewcs/EWCS-thumbnail.png);
+background-repeat: no-repeat;
+background-size: contain;
 }
 
 .thumbnail__overlay {
