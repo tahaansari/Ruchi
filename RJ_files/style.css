@@ -835,42 +835,7 @@ background-size: contain;
     border-radius: 5px;
 }
 
-@media only screen and (min-width: 768px) {
-  .desc {
-    width: 40%;
-    /* position: absolute; */
-  }
 
-  .showcase {
-    /* height: 25em; */
-  }
-  
-  .showcase--inverted:hover .thumbnail {
-    left: 525px;
-    right: -25px;
-  }
-  .showcase--inverted:hover .desc:after {
-    border-color: transparent transparent transparent #4834b7;
-  }
-  /* .showcase:hover .thumbnail {
-    right: 325px;
-    left: -25px;
-  } */
-  .showcase:hover .thumbnail__overlay {
-    opacity: 1;
-  }
-  .showcase:hover .desc {
-    width: 550px;
-    padding-left: 45px;
-    padding-right: 45px;
-    background: #4834b7;
-    color: #fff;
-  }
-  .showcase:hover .desc:after {
-    border-color: transparent #4834b7 transparent transparent;
-  }
-  
-}
 
 
 .slick-dots{
@@ -905,6 +870,16 @@ div.profilecontainer > h1{
 	position: relative;
 }
 
+.link-box i{
+  font-size: 1.5rem;
+}
+
+.info_section .info_contact .link-box .img-box{
+  min-width: 40px;
+  min-height: 40px;
+}
+ 
+
 /*Setup the blinking sidebar*/
 div.profilecontainer > h1:after{
 	 	content: "";
@@ -929,6 +904,10 @@ div.profilecontainer > h1:after{
     
 }
 
+.fa.fa-linkedin{
+  font-size: 2rem;
+}
+
 @media only screen and (max-width: 768px) {
 
 
@@ -942,4 +921,54 @@ div.profilecontainer > h1:after{
     margin: 0 -15px;
   }
 
+}
+
+@media only screen and (min-width: 768px) {
+
+  .slider_section .detail_box p{
+    font-size: 1.2rem;
+  }
+  .desc {
+    width: 40%;
+    /* position: absolute; */
+  }
+
+  .showcase {
+    /* height: 25em; */
+  }
+  
+  .showcase--inverted:hover .thumbnail {
+    left: 525px;
+    right: -25px;
+  }
+  .showcase--inverted:hover .desc:after {
+    border-color: transparent transparent transparent #4834b7;
+  }
+  /* .showcase:hover .thumbnail {
+    right: 325px;
+    left: -25px;
+  } */
+  .showcase:hover .thumbnail__overlay {
+    opacity: 1;
+  }
+  .showcase:hover .desc {
+    width: 550px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background: #4834b7;
+    color: #fff;
+  }
+  .showcase:hover .desc:after {
+    border-color: transparent #4834b7 transparent transparent;
+  }
+
+  .link-box i{
+    font-size: 2rem;
+  }
+  
+  .info_section .info_contact .link-box .img-box{
+    min-width: 50px;
+    min-height: 50px;
+  }
+  
 }
