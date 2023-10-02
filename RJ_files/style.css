@@ -11,6 +11,12 @@ body {
   /* font-family: "Poppins", sans-serif; */
   color: #000000;
   background-color: #ffffff;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  line-height: 1.6;
 }
 
 .layout_padding {
@@ -858,6 +864,7 @@ background-size: contain;
 
 .colorpink{
   color: #eb4b6b;
+  font-weight: bold;
 }
 
 
