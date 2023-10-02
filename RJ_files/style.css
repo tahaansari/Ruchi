@@ -1,11 +1,13 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;700&display=swap');
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Serif', serif;
+  /* font-family: 'Roboto', sans-serif; */
   /* font-family: "Poppins", sans-serif; */
   color: #000000;
   background-color: #ffffff;
@@ -854,6 +856,10 @@ background-size: contain;
     margin: 0 0.5rem;
 }
 
+.colorpink{
+  color: #eb4b6b;
+}
+
 
 
 div.profilecontainer{
@@ -907,6 +913,9 @@ div.profilecontainer > h1:after{
 .fa.fa-linkedin{
   font-size: 2rem;
 }
+
+
+
 
 @media only screen and (max-width: 768px) {
 
