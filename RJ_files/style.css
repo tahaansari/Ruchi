@@ -488,6 +488,7 @@ a:focus {
   margin-top: 45px;
   text-align: center;
   min-width: 285px;
+  height: 100%;
 }
 
 .client_section .box .img-box {
@@ -509,6 +510,7 @@ a:focus {
   color: #ffffff;
   background-color: #4834b7;
   padding: 90px 20px 35px;
+  height: 100%;
 }
 
 .client_section .box .detail-box h5 {
@@ -852,6 +854,7 @@ background-size: contain;
   margin: 0;
   padding: 0;
   justify-content: center;
+  margin-top: 1.5rem;
 }
 
 .slick-dots button{
@@ -921,7 +924,15 @@ div.profilecontainer > h1:after{
   font-size: 2rem;
 }
 
+.slick-track
+{
+    display: flex !important;
+}
 
+.slick-slide
+{
+    height: inherit !important;
+}
 
 
 @media only screen and (max-width: 768px) {
